@@ -23,6 +23,8 @@ class Clock extends Domel {
 
     ctx.save();
     ctx.transform(1.000000, 0.000000, 0.000000, 1.000000, W/2, H/2);
+    // w=[a c]      b=[e] 
+      // [b d]        [f]
     ctx.transform(2.000000, 0.000000, 0.000000, 2.000000, 0, 0);
     ctx.transform(1.000000, 0.000000, 0.000000, 1.000000, -128, -128);
 
